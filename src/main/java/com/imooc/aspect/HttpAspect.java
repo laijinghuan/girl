@@ -44,7 +44,7 @@ public class HttpAspect {
 
     @After("log()")
     public void doAfter(){
-        logger.info("22222");
+        logger.info("22221");
     }
 
     @AfterReturning(returning = "object", pointcut = "log()")
